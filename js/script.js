@@ -1,3 +1,9 @@
+// wrote the code in html instead because didnt get it to work when I had the button here
+// event listener to respond to "Show another quote" button clicks
+// when user clicks anywhere on the button, the "printQuote" function is called
+//document.getElementById('loadQuote').addEventListener("click", printQuote(), false);
+
+
 // all quotes in an array called quotes
 var quotes = [
     {
@@ -98,7 +104,4 @@ function printQuote() {
 
 }
 printQuote();
-// wrote the code in html instead because didnt get it to work when I had the button here
-// event listener to respond to "Show another quote" button clicks
-// when user clicks anywhere on the button, the "printQuote" function is called
-//document.getElementById('loadQuote').addEventListener("click", printQuote(), false);
+
